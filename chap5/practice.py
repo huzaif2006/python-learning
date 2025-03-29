@@ -1,51 +1,51 @@
 # prob 1 
 
-# a = 1
+a = 1
 
-# while a<=100:
-#     print(a)
-#     a += 1
+while a<=100:
+    print(a)
+    a += 1
 
 
 
 # prob 2 
 
-# b = 100
+b = 100
 
-# while b>= 1:
-#     print(b)
-#     b = b - 1
+while b>= 1:
+    print(b)
+    b = b - 1
 
 # prob 3
 
-# i = 1
-# j = int(input("enter a number "))
+i = 1
+j = int(input("enter a number "))
 
-# while i <= 10:
-#     print(f"the table of {j} is {j *i}")
+while i <= 10:
+    print(f"the table of {j} is {j *i}")
     
-#     i += 1
+    i += 1
 
 
 # prob 4
 
-# nums = [1, 4, 6, 7, 10, 16, 19, 25, 33, 40]
+nums = [1, 4, 6, 7, 10, 16, 19, 25, 33, 40]
 
-# index = 0
+index = 0
 
-# while index < len(nums):
-#     print(nums[index])
-#     index = index + 1
+while index < len(nums):
+    print(nums[index])
+    index = index + 1
 
 # prob 5
 
-# heroes = ["superman", "Iron man", "Flash", "Spider man"]
+heroes = ["superman", "Iron man", "Flash", "Spider man"]
 
-# idx = 0
+idx = 0
 
-# while idx < len(heroes):    # when we go to each of things in programming we called it traverse    (traverse means travel)
-#     print(heroes[idx])
-#     idx += 1
+while idx < len(heroes):    # when we go to each of things in programming we called it traverse    (traverse means travel)
+    print(heroes[idx])
+    idx += 1
 
 
 
