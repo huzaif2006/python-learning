@@ -25,11 +25,11 @@ variable_name_that_return_file.close()
 
 """
 
-# file = open("demo.txt", "r")
-# content = file.read()   # you can also pass the type 
-# print(content)
-# print(type(content))   #identifying the type of content
-# file.close()
+file = open("demo.txt", "r")
+content = file.read()   # you can also pass the type 
+print(content)
+print(type(content))   #identifying the type of content
+file.close()
 
 
 file = open("demo.txt", "r")

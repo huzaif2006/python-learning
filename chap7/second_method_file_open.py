@@ -11,4 +11,10 @@ with open("index.txt", "a+") as file:
     file.write("hi i'm Huzaif")
     file.seek(0)
     print(file.read())
+
+
+
+
+
+
     
