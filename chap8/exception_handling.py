@@ -19,9 +19,39 @@
 
 
 
+# try:
+#     num = int(input("enter a num: "))
+#     List = ["apple", "mango", "banana"]
+#     print(List[num])
+# except IndexError:
+#     print("index out of range")
+# except ValueError:
+#     print("invalid input")
+
+
+
+
+
+
+
+
+
+
 try:
-    num = int(input("enter a num: "))
-    List = ["apple", "mango", "banana"]
-    print(List[num])
-except
+    number = int(input("Enter a number: "))
+    result = 10 / number
+    print("Result is:", result)
+
+except ZeroDivisionError:
+    print("Oops! You can’t divide by zero.")
+
+except ValueError:
+    print("That’s not a number!")
+
+else:
+    print("Good job! You didn’t break anything.")
+
+finally:
+    print("The game is over.")
+
  
